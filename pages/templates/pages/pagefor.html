@@ -1,0 +1,9 @@
+{% extends 'pages/base.html' %}
+
+{% block content %}
+    <ul>
+        {% for i in maliste%}
+        <li>{{ i }}</li>
+        {%endfor%}
+    </ul>
+{% endblock %}

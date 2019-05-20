@@ -1,0 +1,9 @@
+{% extends 'pages/base.html' %}
+
+{% block content %}
+    {% if age >= 19 %}
+    <h1> Bienvenue </h1>
+    {% else %}
+    <h1> Grandis d'abord</h1>
+    {% endif %}
+{% endblock %}
